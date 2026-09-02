@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:wght@400;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff4c7;
+  color: #252525;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+header {
+  padding: 35px 20px;
+  background-color: #d62828;
+  color: white;
+  text-align: center;
+  border-bottom: 8px solid #111111;
+}
+
+h1,
+h2,
+.subtitle {
+  font-family: "Chewy", cursive;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.5rem;
+  text-shadow: 4px 4px 0 #111111;
+}
+
+h2 {
+  color: #c21f1f;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+main {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.card {
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: white;
+  border: 3px solid #111111;
+  border-radius: 14px;
+  box-shadow: 7px 7px 0 #111111;
+}
+
+.main-figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main-image {
+  display: block;
+  width: 500px;
+  max-width: 100%;
+  height: 320px;
+  margin: 0 auto;
+  border: 5px solid #111111;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.peanuts-word {
+  padding: 1px 5px;
+  background-color: #ffd21f;
+  color: #111111;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+.charlie-word {
+  color: #8b4513;
+  font-weight: 800;
+}
+
+.Snoopy_word {
+  color: #1261a0;
+  font-weight: 800;
+}
+
+.woodstock-word {
+  padding: 1px 5px;
+  background-color: #111111;
+  color: #ffd21f;
+  border-radius: 5px;
+  font-weight: 800;
+}
+
+#facts {
+  background-color: #e9f5ff;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery figure {
+  width: 350px;
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: 240px;
+  border: 4px solid #111111;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.link-text {
+  text-align: center;
+}
+
+a {
+  color: #b11111;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #005bbb;
+}
+
+footer {
+  padding: 15px;
+  background-color: #111111;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+
+  .card {
+    padding: 18px;
+  }
+}
